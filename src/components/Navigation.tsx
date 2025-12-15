@@ -39,7 +39,7 @@ const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            {navItems.map(item => <Link key={item.path} to={item.path} className={cn("nav-link text-sm font-medium", location.pathname === item.path && "text-foreground active")}>
+            {navItems.map(item => <Link key={item.path} to={item.path} className="">
                 {item.label}
               </Link>)}
           </div>
