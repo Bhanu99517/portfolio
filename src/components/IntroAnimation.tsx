@@ -60,7 +60,7 @@ const IntroAnimation = ({ onComplete, name }: IntroAnimationProps) => {
           <span className="text-gradient inline-block animate-typewriter">
             BhanuTechLab
           </span>
-          <span className="text-muted-foreground"> /&gt;</span>
+          <span className="text-muted-foreground"> /&lt;</span>
         </h1>
         <p className="text-center text-muted-foreground mt-4 font-mono text-sm animate-fade-up stagger-2 opacity-0">
           Software Developer
