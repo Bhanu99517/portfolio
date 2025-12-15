@@ -10,11 +10,30 @@ const Home = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center">
-        {/* Background effects */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(var(--primary)/0.15),transparent_50%)]" />
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl" />
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+        {/* Enhanced background effects */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,hsl(var(--primary)/0.25),transparent)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_80%,hsl(var(--accent)/0.15),transparent_40%)]" />
+        
+        {/* Animated gradient orbs */}
+        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute top-1/3 right-20 w-96 h-96 bg-accent/8 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
+        <div className="absolute bottom-20 left-1/3 w-80 h-80 bg-primary/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "2s" }} />
+        
+        {/* Grid pattern overlay */}
+        <div className="absolute inset-0 bg-[linear-gradient(hsl(var(--border)/0.03)_1px,transparent_1px),linear-gradient(90deg,hsl(var(--border)/0.03)_1px,transparent_1px)] bg-[size:60px_60px]" />
+        
+        {/* Floating particles */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-1/4 left-1/5 w-1 h-1 bg-primary/40 rounded-full animate-float" />
+          <div className="absolute top-1/2 left-3/4 w-1.5 h-1.5 bg-accent/30 rounded-full animate-float" style={{ animationDelay: "0.5s" }} />
+          <div className="absolute top-3/4 left-1/2 w-1 h-1 bg-primary/30 rounded-full animate-float" style={{ animationDelay: "1s" }} />
+          <div className="absolute top-1/3 left-2/3 w-0.5 h-0.5 bg-primary/50 rounded-full animate-float" style={{ animationDelay: "1.5s" }} />
+          <div className="absolute top-2/3 left-1/4 w-1 h-1 bg-accent/40 rounded-full animate-float" style={{ animationDelay: "2s" }} />
+        </div>
+        
+        {/* Subtle vignette */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,transparent_30%,hsl(var(--background)/0.8)_100%)]" />
         
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
