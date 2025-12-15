@@ -2,11 +2,11 @@ import { Github, Linkedin, Twitter, Mail, Instagram } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Mail, href: "#", label: "Email" },
+    { icon: Github, href: "https://github.com/Bhanu99517", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/g-bhanu-prakash-18a476340", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/bhanu9951", label: "Twitter" },
+    { icon: Instagram, href: "https://www.instagram.com/_g_bhanu_prakash_/#", label: "Instagram" },
+    { icon: Mail, href: "bhanu99517@gmail.com", label: "Email" },
   ];
 
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
             <span className="text-primary">&lt;</span>
             <span>Crafted with passion</span>
             <span className="text-primary"> /&gt;</span>
-            <span className="ml-2">© {new Date().getFullYear()}</span>
+            <span className="ml-2">© {new Date().getFullYear()}BhanuTechLab</span>
           </p>
 
           <div className="flex items-center gap-3">
