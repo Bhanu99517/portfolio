@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@johndoe.dev", href: "mailto:bhanu99517@gmail.com" },
+    { icon: Mail, label: "Email", value: "bhanu99517@gmail.com", href: "mailto:bhanu99517@gmail.com" },
     { icon: MapPin, label: "Location", value: "Hyderabad, Telangana, India", href: "#" },
   ];
 
