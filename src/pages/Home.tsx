@@ -106,13 +106,13 @@ const Home = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[{
-            number: "5+",
+            number: "1+",
             label: "Years Experience"
           }, {
-            number: "50+",
+            number: "2+",
             label: "Projects Completed"
           }, {
-            number: "20+",
+            number: "0+",
             label: "Open Source Contributions"
           }, {
             number: "10K+",
