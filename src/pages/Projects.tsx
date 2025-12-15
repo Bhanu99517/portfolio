@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "CloudScale",
       description: "A Kubernetes-native autoscaling solution that uses ML to predict traffic patterns and scale applications proactively.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
+      image: "https://image2url.com/files/1765813123543-ff761359-f8eb-4893-b5c0-53c9daa76af8.png",
       technologies: ["Go", "Kubernetes", "TensorFlow", "Prometheus"],
       github: "#",
       demo: "#",
