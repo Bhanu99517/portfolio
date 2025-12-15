@@ -58,7 +58,7 @@ const IntroAnimation = ({ onComplete, name }: IntroAnimationProps) => {
         <h1 className="font-mono text-3xl md:text-5xl font-bold tracking-tight">
           <span className="text-muted-foreground">&lt;</span>
           <span className="text-gradient inline-block animate-typewriter">
-            &lt BhanuTechLab /&gt
+            <BhanuTechLab/>
           </span>
           <span className="text-muted-foreground"> /&gt;</span>
         </h1>
