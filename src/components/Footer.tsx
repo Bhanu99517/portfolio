@@ -17,7 +17,7 @@ const Footer = () => {
             <span className="text-primary">&lt;</span>
             <span>Crafted with passion</span>
             <span className="text-primary"> /&gt;</span>
-            <span className="ml-2">© {new Date().getFullYear()}BhanuTechLab</span>
+            <span className="ml-2">© {new Date().getFullYear()}_BhanuTechLab</span>
           </p>
 
           <div className="flex items-center gap-3">
