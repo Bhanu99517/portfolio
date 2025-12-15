@@ -21,14 +21,14 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@johndoe.dev", href: "mailto:hello@johndoe.dev" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" },
+    { icon: Mail, label: "Email", value: "hello@johndoe.dev", href: "mailto:bhanu99517@gmail.com" },
+    { icon: MapPin, label: "Location", value: "Hyderabad, Telangana, India", href: "#" },
   ];
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "https://github.com", username: "@johndoe" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", username: "johndoe" },
-    { icon: Twitter, label: "Twitter", href: "https://twitter.com", username: "@johndoe" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Bhanu99517", username: "@Bhanu" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/g-bhanu-prakash-18a476340", username: "G Bhanu Prakash" },
+    { icon: Twitter, label: "Twitter", href: "https://x.com/bhanu9951", username: "G Bhanu Prakash" },
   ];
 
   return (
