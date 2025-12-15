@@ -7,7 +7,7 @@ const Projects = () => {
       title: "MiraAttendance",
       description: "MIRA ATTENDANCE is a web-based facial recognition attendance platform designed for diploma / polytechnic institutes.Students can check their attendance, exam results, and application status, while admins manage everything through a role-based dashboard.",
       image: "https://image2url.com/files/1765813123543-ff761359-f8eb-4893-b5c0-53c9daa76af8.png",
-      technologies: ["Go", "Kubernetes", "TensorFlow", "Prometheus"],
+      technologies: ["TypeScript", "Javascript", "React", "HTML"],
       github: "https://github.com/Bhanu99517/MIRA_FACIAL_ATTENDANCE",
       demo: "https://miraattendance.vercel.app/",
       stars: 19,
