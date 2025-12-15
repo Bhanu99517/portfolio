@@ -49,8 +49,8 @@ const OpenSource = () => {
   const stats = [
     { icon: GitPullRequest, label: "Pull Requests", value: "150+" },
     { icon: GitMerge, label: "Merged PRs", value: "120+" },
-    { icon: Star, label: "Stars Earned", value: "5K+" },
-    { icon: Heart, label: "Sponsors", value: "25" },
+    { icon: Star, label: "Stars Earned", value: "19+" },
+    { icon: Heart, label: "Sponsors", value: "0" },
   ];
 
   const ownProjects = [
