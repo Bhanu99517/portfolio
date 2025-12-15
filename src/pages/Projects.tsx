@@ -8,10 +8,10 @@ const Projects = () => {
       description: "A Kubernetes-native autoscaling solution that uses ML to predict traffic patterns and scale applications proactively.",
       image: "https://image2url.com/files/1765813123543-ff761359-f8eb-4893-b5c0-53c9daa76af8.png",
       technologies: ["Go", "Kubernetes", "TensorFlow", "Prometheus"],
-      github: "#",
-      demo: "#",
-      stars: 1200,
-      forks: 234
+      github: "https://github.com/Bhanu99517/MIRA_FACIAL_ATTENDANCE",
+      demo: "https://miraattendance.vercel.app/",
+      stars: 19,
+      forks: 0
     },
     {
       title: "DevFlow",
