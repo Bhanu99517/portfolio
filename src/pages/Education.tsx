@@ -6,7 +6,7 @@ const Education = () => {
     {
       degree: "Diploma in Electronics and Communication Engineering",
       institution: "Government polytechnic",
-      location: "Ismailkhanpet, Sangareddy",
+      location: "Ismailkhanpet, Sangareddy, India",
       period: "2023 - 2026",
       gpa: "9.0/10.0",
       highlights: [
