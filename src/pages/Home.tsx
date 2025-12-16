@@ -109,7 +109,7 @@ const Home = () => {
             number: "1+",
             label: "Years Experience"
           }, {
-            number: "2+",
+            number: "3+",
             label: "Projects Completed"
           }, {
             number: "0+",
