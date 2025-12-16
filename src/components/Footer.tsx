@@ -3,6 +3,7 @@ import { Github, Linkedin, Twitter, Mail, Instagram } from "lucide-react";
 const Footer = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/Bhanu99517", label: "GitHub" },
+    { icon: Github, href: "https://github.com/BhanuTechLab", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/g-bhanu-prakash-18a476340", label: "LinkedIn" },
     { icon: Twitter, href: "https://x.com/bhanu9951", label: "Twitter" },
     { icon: Instagram, href: "https://www.instagram.com/_g_bhanu_prakash_/#", label: "Instagram" },
