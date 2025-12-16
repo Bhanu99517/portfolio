@@ -14,14 +14,14 @@ const Projects = () => {
       forks: 0
     },
     {
-      title: "DevFlow",
-      description: "Visual CI/CD pipeline builder with drag-and-drop interface. Supports GitHub Actions, GitLab CI, and Jenkins.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-      github: "#",
-      demo: "#",
-      stars: 856,
-      forks: 142
+      title: "Consultancy",
+      description: "A clean, modern landing page template for consultancy and business services built with HTML, CSS, and JavaScript.",
+      image: "https://image2url.com/files/1765855293210-d5b89443-0da0-4ed5-a824-5147d37e77fd.png",
+      technologies: ["HTML", "CSS", "JavaSCRIPT"],
+      github: "https://github.com/BhanuTechLab/Consultancy",
+      demo: "https://globalnorthoverseas.vercel.app/",
+      stars: 2,
+      forks: 0
     },
     {
       title: "CodeReview AI",
