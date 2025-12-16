@@ -24,45 +24,16 @@ const Projects = () => {
       forks: 0
     },
     {
-      title: "CodeReview AI",
-      description: "AI-powered code review assistant that provides intelligent suggestions and catches potential bugs before they reach production.",
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
-      technologies: ["Python", "GPT-4", "FastAPI", "Redis"],
-      github: "#",
-      demo: "#",
-      stars: 2340,
-      forks: 456
+      title: "Game",
+      description: "Tech-Game-2 is a simple and interactive browser-based game developed using **HTML, CSS, and JavaScript**. This project focuses on improving front-end development skills while creating an engaging user experience.",
+      image: "https://image2url.com/files/1765856095508-5a564d07-54cf-4f25-862a-e25823030daf.png",
+      technologies: ["HTML", "CSS", "JavaSCRIPT"],
+      github: "https://github.com/BhanuTechLab/Tech-Game-2",
+      demo: "https://tech-game-2.vercel.app/",
+      stars: 3,
+      forks: 0
     },
-    {
-      title: "SecureVault",
-      description: "End-to-end encrypted password manager with zero-knowledge architecture. Available on web, mobile, and desktop.",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop",
-      technologies: ["Rust", "React Native", "SQLite", "Argon2"],
-      github: "#",
-      demo: "#",
-      stars: 678,
-      forks: 89
-    },
-    {
-      title: "DataStream",
-      description: "Real-time data processing pipeline for IoT devices. Handles millions of events per second with sub-millisecond latency.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-      technologies: ["Apache Kafka", "Flink", "Scala", "ClickHouse"],
-      github: "#",
-      demo: "#",
-      stars: 445,
-      forks: 67
-    },
-    {
-      title: "MockAPI Studio",
-      description: "Visual tool for creating and managing mock APIs. Perfect for frontend development and API prototyping.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Express", "MongoDB", "Docker"],
-      github: "#",
-      demo: "#",
-      stars: 923,
-      forks: 178
-    }
+
   ];
 
   return (
