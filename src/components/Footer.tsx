@@ -7,7 +7,7 @@ const Footer = () => {
     { icon: Linkedin, href: "https://www.linkedin.com/in/g-bhanu-prakash-18a476340", label: "LinkedIn" },
     { icon: Twitter, href: "https://x.com/bhanu9951", label: "Twitter" },
     { icon: Instagram, href: "https://www.instagram.com/_g_bhanu_prakash_/#", label: "Instagram" },
-    { icon: Mail, href: "bhanu99517@gmail.com", label: "Email" },
+    { icon: Mail, href: "mailto:bhanu99517@gmail.com", label: "Email" },
   ];
 
   return (
