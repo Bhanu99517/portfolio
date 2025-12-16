@@ -4,36 +4,33 @@ import Layout from "@/components/Layout";
 const Education = () => {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      institution: "Stanford University",
-      location: "California, USA",
-      period: "2019 - 2021",
-      gpa: "3.9/4.0",
-      highlights: [
-        "Specialized in Distributed Systems and Machine Learning",
-        "Published 2 research papers on cloud computing",
-        "Teaching Assistant for Advanced Algorithms",
-        "Dean's List - All Semesters"
-      ]
-    },
-    {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "Indian Institute of Technology",
-      location: "Mumbai, India",
-      period: "2015 - 2019",
-      gpa: "9.2/10.0",
+      degree: "Diploma in Electronics and Communication Engineering",
+      institution: "Government polytechnic",
+      location: "Ismailkhanpet, Sangareddy",
+      period: "2023 - 2026",
+      gpa: "9.0/10.0",
       highlights: [
         "First Class with Distinction",
         "Led the college coding club",
-        "Winner - National Hackathon 2018",
+        "Winner - National Hackathon 2025",
         "Undergraduate Research Assistant"
+      ]
+    },
+    {
+      degree: "Board of Secondary Education Technology",
+      institution: "Z P High School",
+      location: "BHEL, Hyderabad, India",
+      period: "2019 - 2023",
+      gpa: "8.0/10.0",
+      highlights: [
+        
       ]
     }
   ];
 
   const certifications = [
     { name: "AWS Solutions Architect Professional", issuer: "Amazon Web Services", year: "2023" },
-    { name: "Kubernetes Administrator (CKA)", issuer: "CNCF", year: "2022" },
+    { name: "Kubernetes Administrator (CKA)", issuer: "CNCF", year: "2023" },
     { name: "Google Cloud Professional Data Engineer", issuer: "Google", year: "2022" },
   ];
 
