@@ -1,2 +1,1 @@
-# Hello
-Welcom to my portfolio 
+# welcom to my portfolio 
